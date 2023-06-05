@@ -1,0 +1,1 @@
+export {useFade} from './useFade';

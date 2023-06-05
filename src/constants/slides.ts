@@ -1,0 +1,31 @@
+import {
+  eight,
+  eleven,
+  five,
+  four,
+  nine,
+  one,
+  seven,
+  six,
+  ten,
+  thirteen,
+  three,
+  twelve,
+  two,
+} from '../assets';
+
+export const slides = [
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+  eight,
+  nine,
+  ten,
+  eleven,
+  twelve,
+  thirteen,
+];
