@@ -1,12 +1,13 @@
-import {View, Image, Dimensions, ImageSourcePropType} from 'react-native';
+import {View, Image, Dimensions} from 'react-native';
+import {Slide} from '../interfaces';
 
 const {width} = Dimensions.get('window');
 
 interface Props {
-  image: ImageSourcePropType;
+  slide: Slide;
 }
 
-export const GalleryImageItem = ({image}: Props) => {
+export const GalleryImageItem = ({slide: {image}}: Props) => {
   return (
     <View style={{flex: 1}}>
       <Image
