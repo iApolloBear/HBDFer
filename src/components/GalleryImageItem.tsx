@@ -1,4 +1,4 @@
-import {Text, View, Image, Dimensions, ImageSourcePropType} from 'react-native';
+import {View, Image, Dimensions, ImageSourcePropType} from 'react-native';
 
 const {width} = Dimensions.get('window');
 

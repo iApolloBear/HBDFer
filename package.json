@@ -12,6 +12,8 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.71.8",
+    "react-native-image-colors": "^1.5.2",
+    "react-native-linear-gradient": "^2.6.2",
     "react-native-snap-carousel": "^3.9.1"
   },
   "devDependencies": {
